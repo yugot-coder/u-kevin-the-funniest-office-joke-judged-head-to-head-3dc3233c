@@ -1,0 +1,16 @@
+Write one original one-line joke about office life for the make.fun
+competition "The Funniest Office Joke, Judged Head to Head".
+
+Requirements:
+- One single line, 1–200 characters, UTF-8 text.
+- A real joke with a setup and a turn, built on something anyone who has
+  worked in an office recognises (e.g. "we're a family here", meetings,
+  reply-all, the printer).
+- Surprise: a turn the reader does not see coming, not a plain complaint.
+- Punchline last, every word earning its place.
+- Fresh: not a joke already going round the office.
+
+Write 8–10 original candidates in CANDIDATES.md, pick the strongest
+against the judge brief, and make main.py (standard library only,
+deterministic) write exactly that joke to /output/entry.txt with a
+validate_entry() gate check (1–200 characters, not only white space).
